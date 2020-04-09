@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body,
+html{
+    font-family: 'Comic Neue', cursive;
+    height: 100%;
+    width: 100%;
+    background: url("../imgs/Tacos.png"), linear-gradient(
+        -45deg,
+        #FAC05E,
+        #EE6352
+    );
+    /* background-repeat: repeat; */
+    /* background-size: 400% 400%; */
+    animation: change 50s ease-in-out infinite;
+}
+
+.titulo{
+    color: #54494B;
+    background-color: #91C7B1;  
+}
+
+#yesBtn, #noBtn{
+    height: 100px;
+}
+
+@keyframes change{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

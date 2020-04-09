@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taquetest</title>
+    <link rel="icon" type="image/png" href="public/imgs/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card tarjeta mt-5">
+                    <div class="card-header text-center titulo">
+                        <h1 class="display-4" id="finalTitle">¿Es esto un taco?</h1>
+                    </div>
+                    <div class="card-body text-center cuerpo">
+                        <img id ="tacoImg" src="" height="300px" width="300px" class="img-fluid m-3">
+                        <h4 id="tacoName"></h4>
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="button" class="btn btn-info btn-lg btn-block" id="yesBtn">Si</button>
+                            </div>
+                            <div class="col-6">
+                                <button type="button" class="btn btn-dark btn-lg btn-block" id="noBtn">No</button>
+                            </div>
+                        </div>
+                        <small><a href="" id="tacoLink" target="_blank">Imagen original</a></small>
+                    </div>
+                    <div class="card-footer text-center">
+                        <p>Descubre qué tan exigente eres con la definición de taco...y de cómo dejé de preocuparme por la pandemia y aprendí a amar los tacos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="public/js/logic.js"></script>
+</body>
+</html>
